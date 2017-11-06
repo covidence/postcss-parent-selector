@@ -1,21 +1,21 @@
 {
-  "name": "postcss-parent-selector",
-  "version": "1.0.0",
-  "description": "PostCSS plugin for adding a parent selector to all rules in a css file.",
+  "name": "postcss-scope-at-selector",
+  "version": "0.1.0",
+  "description": "PostCSS plugin for scoping a stylesheet to elements with a selector and its descendents.",
   "keywords": [
     "postcss",
     "css",
-    "postcss-plugin",
-    "parent class"
+    "postcss-plugin"
   ],
-  "author": "Dominick Washburn <domwashburn@gmail.com>",
+  "author": "Bo Jeanes <me@bjeanes.com>",
   "license": "MIT",
-  "repository": "https://github.com/domwashburn/postcss-parent-selector",
+  "repository": "https://github.com/covidence/postcss-scope-at-selector",
   "bugs": {
-    "url": "https://github.com/domwashburn/postcss-parent-selector/issues"
+    "url": "https://github.com/covidence/postcss-scope-at-selector/issues"
   },
-  "homepage": "https://github.com/domwashburn/postcss-parent-selector",
+  "homepage": "https://github.com/covidence/postcss-scope-at-selecto",
   "dependencies": {
+    "css-selector-tokenizer": "^0.7.0",
     "postcss": "^5.2.5"
   },
   "devDependencies": {
